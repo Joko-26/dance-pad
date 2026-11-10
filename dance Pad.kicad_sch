@@ -838,6 +838,462 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Rotary_1x6_MP"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Rotary_1x6_MP"
+				(at 8.89 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Rotary switch 1x6, SP6T with mount point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Rotary switch 1x6 SP6T"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Rotary_1x6_MP_0_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.9464 0.6096) (xy -1.4732 5.7404)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.9526 2.2225)
+					(mid 0.154 0.449)
+					(end -0.3176 -1.5875)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 6.35)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3176 -1.5875) (xy -0.3176 -0.6985)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3176 -1.5875) (xy -0.3176 -1.5875)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3176 -1.5875) (xy 0.4444 -1.0795)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.635 4.445)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.635 -4.445)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 7.62) (xy -1.27 7.62) (xy -1.27 7.62) (xy -1.27 6.985)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 2.54 5.08) (xy 2.54 4.445) (xy 1.27 4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.175 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 2.54 -5.08) (xy 2.54 -4.445) (xy 1.27 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Rotary_1x6_MP_1_1"
+				(polyline
+					(pts
+						(xy -5.08 8.89) (xy 5.08 8.89) (xy 5.08 -6.35) (xy -5.08 -6.35) (xy -5.08 8.89) (xy -5.08 8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -954,6 +1410,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 209.55 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "012a80bd-947d-4531-ba29-8541c67aaae2")
+	)
+	(junction
+		(at 209.55 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fe262a4-a324-484b-ab4b-edd8d520aa2d")
+	)
+	(junction
+		(at 209.55 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62e75730-b980-4d39-81b1-35c6c55afe1d")
+	)
+	(junction
+		(at 209.55 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6a774b3-f846-4282-b278-2a46b2e8f5d1")
+	)
+	(junction
+		(at 209.55 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b03a7604-0fe8-4be4-a143-c8609ef5d823")
+	)
 	(wire
 		(pts
 			(xy 146.05 116.84) (xy 127 116.84)
@@ -963,6 +1449,16 @@
 			(type default)
 		)
 		(uuid "00895229-1b6d-47bc-9f16-159aac241889")
+	)
+	(wire
+		(pts
+			(xy 209.55 97.79) (xy 209.55 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "010987ad-216f-4411-84c9-73c4226f7e9b")
 	)
 	(wire
 		(pts
@@ -986,16 +1482,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 82.55) (xy 127 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0776da57-ef2e-4ad3-a157-9791971ed184")
-	)
-	(wire
-		(pts
 			(xy 115.57 76.2) (xy 115.57 90.17)
 		)
 		(stroke
@@ -1006,16 +1492,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 86.36) (xy 107.95 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d6d9e4f-e189-4a26-8c33-6f0931075699")
-	)
-	(wire
-		(pts
 			(xy 177.8 139.7) (xy 177.8 135.89)
 		)
 		(stroke
@@ -1023,6 +1499,16 @@
 			(type default)
 		)
 		(uuid "0de3cf24-c0c3-49e9-8a22-0b7a41f07524")
+	)
+	(wire
+		(pts
+			(xy 104.14 53.34) (xy 104.14 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1518ab57-2b9a-4ec6-b21b-b71ff293c13e")
 	)
 	(wire
 		(pts
@@ -1046,6 +1532,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 97.79) (xy 223.52 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33bfd318-fe11-4fdd-9e4e-3b9a8150bed4")
+	)
+	(wire
+		(pts
 			(xy 157.48 86.36) (xy 163.83 86.36)
 		)
 		(stroke
@@ -1056,6 +1552,26 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 95.25) (xy 209.55 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "375b449c-68a0-4ca3-8622-f8647b850101")
+	)
+	(wire
+		(pts
+			(xy 217.17 100.33) (xy 223.52 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a6786b7-a3a8-4a2c-96bb-3f0cf33530d7")
+	)
+	(wire
+		(pts
 			(xy 121.92 101.6) (xy 127 101.6)
 		)
 		(stroke
@@ -1063,6 +1579,26 @@
 			(type default)
 		)
 		(uuid "3a82b5a1-75a9-4501-a9f5-e9fcaf52a0f2")
+	)
+	(wire
+		(pts
+			(xy 245.11 67.31) (xy 120.65 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b2f78ed-5d37-476c-92fa-9d62d41fd1bc")
+	)
+	(wire
+		(pts
+			(xy 209.55 102.87) (xy 209.55 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c321295-4883-431c-a1f0-27429b1ea7be")
 	)
 	(wire
 		(pts
@@ -1106,6 +1642,26 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 64.77) (xy 180.34 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e1f87c-3dbe-4979-8f8a-818ef02ffd20")
+	)
+	(wire
+		(pts
+			(xy 180.34 97.79) (xy 157.48 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c58b71c-8908-493d-8a3b-2235f33a651d")
+	)
+	(wire
+		(pts
 			(xy 153.67 76.2) (xy 115.57 76.2)
 		)
 		(stroke
@@ -1116,6 +1672,26 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 92.71) (xy 209.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e26630d-4c45-4eaa-b301-2bbc344e9d23")
+	)
+	(wire
+		(pts
+			(xy 120.65 67.31) (xy 120.65 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e2b1a0-c712-4847-9139-f717081ba538")
+	)
+	(wire
+		(pts
 			(xy 153.67 139.7) (xy 153.67 135.89)
 		)
 		(stroke
@@ -1123,6 +1699,16 @@
 			(type default)
 		)
 		(uuid "51c4846c-2e1e-49cc-a77c-b450742349be")
+	)
+	(wire
+		(pts
+			(xy 104.14 64.77) (xy 180.34 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "589d87b5-9cf8-464e-9963-b05784083806")
 	)
 	(wire
 		(pts
@@ -1166,6 +1752,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 100.33) (xy 209.55 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "742f9f9a-85b2-4aa2-9155-6572e67b7abc")
+	)
+	(wire
+		(pts
 			(xy 153.67 53.34) (xy 153.67 76.2)
 		)
 		(stroke
@@ -1196,13 +1792,23 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 53.34) (xy 104.14 86.36)
+			(xy 217.17 95.25) (xy 223.52 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e280851-1fcd-4e63-9ed0-b40af84eddfe")
+		(uuid "8253ca46-255d-4d16-8592-ef5f925f0c71")
+	)
+	(wire
+		(pts
+			(xy 217.17 105.41) (xy 223.52 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b948a9e-8605-4541-aacc-8f042e751d20")
 	)
 	(wire
 		(pts
@@ -1256,6 +1862,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 92.71) (xy 223.52 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d247ea60-3fa9-4398-8cd4-08e24abf53cb")
+	)
+	(wire
+		(pts
 			(xy 127 116.84) (xy 127 105.41)
 		)
 		(stroke
@@ -1263,6 +1879,16 @@
 			(type default)
 		)
 		(uuid "d4e32a5b-5c0e-4562-9d16-8dd4d6225e40")
+	)
+	(wire
+		(pts
+			(xy 120.65 82.55) (xy 127 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66d045b-e3ee-4538-9d8a-dd0af974f156")
 	)
 	(wire
 		(pts
@@ -1296,6 +1922,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 102.87) (xy 223.52 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e175d4de-0b7a-4d88-b068-c6fa1ba25618")
+	)
+	(wire
+		(pts
 			(xy 181.61 53.34) (xy 171.45 53.34)
 		)
 		(stroke
@@ -1316,16 +1952,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 86.36) (xy 107.95 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebeaeb24-a0f5-4346-9ba7-910b8afa3e0d")
-	)
-	(wire
-		(pts
 			(xy 111.76 71.12) (xy 111.76 93.98)
 		)
 		(stroke
@@ -1343,6 +1969,16 @@
 			(type default)
 		)
 		(uuid "f6933b4d-98d8-457b-9ee2-b7d7c4b96ef2")
+	)
+	(wire
+		(pts
+			(xy 245.11 97.79) (xy 245.11 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f87abb-256d-4b22-9188-77cdac342384")
 	)
 	(wire
 		(pts
@@ -1429,6 +2065,86 @@
 			(project "dance Pad"
 				(path "/be97bb17-6fbf-457c-a934-a2c20237c5a0"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 241.3 97.79 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02ac1d4a-1158-4ce8-8a86-46136673b64b")
+		(property "Reference" "R13"
+			(at 241.3 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 241.3 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+			(at 241.3 99.568 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 241.3 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a54c31d-031e-4e68-b2e8-815e09f57da6")
+		)
+		(pin "2"
+			(uuid "fed2fb26-5205-45c8-9b0d-5aceba72b3c4")
+		)
+		(instances
+			(project "dance Pad"
+				(path "/be97bb17-6fbf-457c-a934-a2c20237c5a0"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2165,6 +2881,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Rotary_1x6_MP")
+		(at 231.14 97.79 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "411749d3-ff93-4fba-834f-1c4588ce6268")
+		(property "Reference" "SW5"
+			(at 231.14 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Rotary_1x6_MP"
+			(at 231.14 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Rotary switch 1x6, SP6T with mount point"
+			(at 231.14 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "b0ce1b89-9fed-4451-a4c9-3be8da863b8d")
+		)
+		(pin "MP"
+			(uuid "df6be84f-4724-418d-b642-ceae5854fb4d")
+		)
+		(pin "6"
+			(uuid "9ea7a42a-d6d1-4f03-a462-cf0ad62f8619")
+		)
+		(pin "3"
+			(uuid "b424ea9a-fc26-435b-86ad-5dc06715bf12")
+		)
+		(pin "2"
+			(uuid "6414e6d6-044e-4c58-a116-3b5fcc133159")
+		)
+		(pin "4"
+			(uuid "53531877-5355-4894-91bf-ac8baa21d34f")
+		)
+		(pin "1"
+			(uuid "743a9457-b890-4912-8080-fe55abe190f8")
+		)
+		(pin "5"
+			(uuid "62706132-6796-4f0c-bfaa-b6df17c5eea4")
+		)
+		(instances
+			(project "dance Pad"
+				(path "/be97bb17-6fbf-457c-a934-a2c20237c5a0"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 191.77 90.17 90)
 		(unit 1)
@@ -2239,6 +3053,165 @@
 			(project "dance Pad"
 				(path "/be97bb17-6fbf-457c-a934-a2c20237c5a0"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 213.36 100.33 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bfde148-3c70-4e16-af55-0e685773116d")
+		(property "Reference" "R10"
+			(at 213.36 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8k"
+			(at 213.36 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+			(at 213.36 102.108 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5fd3e047-e8a4-4e4f-abff-b3daa8628cdf")
+		)
+		(pin "2"
+			(uuid "5df59a3f-3ff0-44d7-b6d4-7315af333b74")
+		)
+		(instances
+			(project "dance Pad"
+				(path "/be97bb17-6fbf-457c-a934-a2c20237c5a0"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 209.55 92.71 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d84fe5c-366d-4db2-b77e-50fae275e5da")
+		(property "Reference" "#PWR011"
+			(at 203.2 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 92.7099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42921e0f-b5ac-49a5-8f2a-deeada6ebfb5")
+		)
+		(instances
+			(project "dance Pad"
+				(path "/be97bb17-6fbf-457c-a934-a2c20237c5a0"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2819,6 +3792,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 213.36 102.87 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a16f594a-4107-42d5-9e16-2f77d1e95170")
+		(property "Reference" "R11"
+			(at 213.36 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "16k"
+			(at 213.36 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+			(at 213.36 104.648 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6427bbd-1ac6-47c6-abee-cb138d11abd0")
+		)
+		(pin "2"
+			(uuid "d477e78e-1004-45d4-84a8-00369419b2bc")
+		)
+		(instances
+			(project "dance Pad"
+				(path "/be97bb17-6fbf-457c-a934-a2c20237c5a0"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 213.36 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a25ee911-f05e-4092-8bd3-10fd4124be8f")
+		(property "Reference" "R12"
+			(at 213.36 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "32k"
+			(at 213.36 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+			(at 213.36 107.188 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ddcc99a0-5466-479c-b354-c48de3e0f09b")
+		)
+		(pin "2"
+			(uuid "7e2715b8-3ef3-43d8-9942-2d089446c5fe")
+		)
+		(instances
+			(project "dance Pad"
+				(path "/be97bb17-6fbf-457c-a934-a2c20237c5a0"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 194.31 139.7 180)
 		(unit 1)
@@ -2994,6 +4127,86 @@
 			(project "dance Pad"
 				(path "/be97bb17-6fbf-457c-a934-a2c20237c5a0"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 213.36 95.25 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af24b89e-0c70-4922-b0ac-28cea068863b")
+		(property "Reference" "R8"
+			(at 213.36 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 213.36 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+			(at 213.36 97.028 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f85ee1f-6143-4030-bac2-04558e9a9145")
+		)
+		(pin "2"
+			(uuid "59705098-84d2-4b00-898d-22515d3f7fb4")
+		)
+		(instances
+			(project "dance Pad"
+				(path "/be97bb17-6fbf-457c-a934-a2c20237c5a0"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3528,6 +4741,86 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 213.36 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df9b6322-572a-4cf7-b34b-7328c5090bf3")
+		(property "Reference" "R7"
+			(at 213.36 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 213.36 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+			(at 213.36 94.488 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7566f1b2-501f-4f2b-b202-bac2ca7ee8ff")
+		)
+		(pin "2"
+			(uuid "a933b24a-6c61-4029-a72f-29f3259c9ef3")
+		)
+		(instances
+			(project "dance Pad"
+				(path "/be97bb17-6fbf-457c-a934-a2c20237c5a0"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 121.92 135.89 0)
 		(unit 1)
 		(body_style 1)
@@ -3603,6 +4896,86 @@
 			(project "dance Pad"
 				(path "/be97bb17-6fbf-457c-a934-a2c20237c5a0"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 213.36 97.79 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec84f339-a927-4f1e-ab2c-4dc61b6e3863")
+		(property "Reference" "R9"
+			(at 213.36 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k"
+			(at 213.36 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+			(at 213.36 99.568 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "859a610f-4496-443f-a530-364997c65b0c")
+		)
+		(pin "2"
+			(uuid "fc696cda-1ba3-4d02-a2aa-cf03d0d6b200")
+		)
+		(instances
+			(project "dance Pad"
+				(path "/be97bb17-6fbf-457c-a934-a2c20237c5a0"
+					(reference "R9")
 					(unit 1)
 				)
 			)
