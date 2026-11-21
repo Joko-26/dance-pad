@@ -3088,6 +3088,17 @@
 			(uuid "1b3ab997-0fcc-4d0c-a626-1670b3ddbe74")
 		)
 		(embedded_fonts no)
+		(model "A:/kicad/ec06-rotary-encoder-switch-smd-2.snapshot.3/1.JPG"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_01005_0402Metric"
 		(layer "F.Cu")
