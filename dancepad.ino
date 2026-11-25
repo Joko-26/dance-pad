@@ -1,3 +1,4 @@
+// peripherals
 int buttonL = 1;
 int buttonR = 3;
 int buttonT = 9;
@@ -46,6 +47,14 @@ unsigned long previousMilisDance = 0;
 int beatPattern[];
 int beatCurrentBeat = 0;
 bool beatWonStage = false;
+unsigned long beatLastMilis = 0;
+int beatThreshold = 2000;
+int beatId = 0;
+bool beatBlinking = false;
+int beatBlinkDur = 300;
+unsigned long beatLastBlinkMillis = 0;
+bool beatAlreadyOn = false;
+int beatBlinkingStage = 0;
 
 void setup()
 {
@@ -62,7 +71,7 @@ void setup()
     pinMode(ledSpecial, OUTPUT);
     pinMode(selector, INPUT);
 
-    previousMilisDefaultAnim = millis()
+    previousMilisDefaultAnim = millis();
 }
 
 void loop()
@@ -74,9 +83,11 @@ void loop()
     {
     case mode1:
     {
+        dance_pad();
     }
     case mode2:
     {
+        memory_beat();
     }
     case mode3:
     {
@@ -93,7 +104,7 @@ void loop()
     }
 
     // default circle animation
-    if (previousMilisDefaultAnim + defaultAnimDelay >= millis() && !running a&& !paused)
+    if (previousMilisDefaultAnim + defaultAnimDelay >= millis() && !running && !paused)
     {
         if (animCurrLed <= 3)
         {
@@ -146,16 +157,16 @@ void looseAnim()
     {
         for (int led : funcLeds)
         {
-            digitalWrite(led, HIGH)
+            digitalWrite(led, HIGH);
         }
     }
     else if (previousMilisLooseAnim + looseAnimDelay >= millis())
     {
         for (int led : funcLeds)
         {
-            digitalWrite(led, LOW)
+            digitalWrite(led, LOW);
         }
-        running = false
+        running = false;
     }
 }
 
@@ -166,10 +177,10 @@ bool righButton(int inputButton)
     {
         if (digitalRead(button) == HIGH && button == inputButton)
         {
-            return true
+            return true;
         }
     }
-    return false
+    return false;
 }
 
 // modes
@@ -185,14 +196,14 @@ void dance_pad()
         }
         else if (previousMilisDance + danceThreshold >= millis() || righButton(danceCurrButton))
         {
-            looseAnim()
+            looseAnim();
         }
     }
     else if (!paused)
     {
         danceCurrButton = random(0, 3);
         digitalWrite(funcLeds[danceCurrButton], HIGH);
-        running = true
+        running = true;
     }
 }
 
@@ -201,12 +212,58 @@ void memory_beat()
 {
     if (running && !paused)
     {
-        if (beatWonStage) {
-
+        if (beatWonStage)
+        {
+            int move = random(1, 4);
+            beatPattern.append(move);
+            beatBlinking = true;
         }
 
+        if (beatBlinking && beatLastBlinkMillis + beatBlinkDur == millis())
+        {
+            switch (beatBlinkingStage)
+            {
+            case 0:
+            {
+                digitalWrite(beatPattern[beatId], HIGH);
+            }
+            case 1:
+            {
+                digitalWrite(beatPattern[beatId], LOW);
+                beatBlinkingStage = 0;
+                if (beatId + 1 <= sizeof(arr) / sizeof(arr[0]))
+                {
+                    beatId += 1;
+                }
+                else
+                {
+                    beatId = 0;
+                    beatBlinking = false;
+                }
+            }
+            case 2:
+            {
+            }
+            }
+        }
+
+        if (righButton(beatCurrentBeat) && beatLastMilis + beatThreshold <= millis())
+        {
+            if (beatPattern.lenght - < beatId)
+            {
+                {
+                    beatId += 1;
+                    beatCurrentBeat = beatPattern[beatId];
+                }
+            }
+            else
+            {
+                beatWonStage = true;
+                beatId = 0;
+            }
+        }
     }
-    else if (!paused)
+    else if (!paused && !running)
     {
         int move = random(1, 4);
         beatPattern.append(move);
