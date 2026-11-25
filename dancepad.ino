@@ -261,6 +261,8 @@ void memory_beat()
                 beatWonStage = true;
                 beatId = 0;
             }
+        } else {
+            looseAnim();
         }
     }
     else if (!paused && !running)
