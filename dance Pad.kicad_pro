@@ -530,7 +530,7 @@
       "netlist": "",
       "plot": "gerbers/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "dance Pad.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

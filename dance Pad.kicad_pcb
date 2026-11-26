@@ -565,17 +565,6 @@
 			(uuid "a5aeb66f-707f-4916-bb17-a2c70cb39334")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "A:/kicad/MX.STEP"
 			(offset
 				(xyz 5 2 5)
@@ -1874,17 +1863,6 @@
 			(uuid "021e4635-6070-4ccb-94bb-f5d32e72d581")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "A:/kicad/MX.STEP"
 			(offset
 				(xyz 5 2.5 4.5)
@@ -3088,15 +3066,15 @@
 			(uuid "1b3ab997-0fcc-4d0c-a626-1670b3ddbe74")
 		)
 		(embedded_fonts no)
-		(model "A:/kicad/ec06-rotary-encoder-switch-smd-2.snapshot.3/1.JPG"
+		(model "A:/kicad/ec06-rotary-encoder-switch-smd-2.snapshot.3/EC06.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz -3.5 -3.5 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1.6 1.6 1.6)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -4176,17 +4154,6 @@
 			(uuid "9c14382d-33e0-4e83-99b1-070901e25f1c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "A:/kicad/MX.STEP"
 			(offset
 				(xyz 5 2.5 4.5)
@@ -5324,65 +5291,6 @@
 			(uuid "5de6a803-5366-418e-ae0f-fcc3f2898fe0")
 		)
 		(embedded_fonts no)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/XIAO-nRF52840 v15.step"
-			(hide yes)
-			(offset
-				(xyz -1.778 -6.096 0.381)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/Seeeduino XIAO SAMD21 v4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/Seeed Studio XIAO RP2040 v26.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 90)
-			)
-		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/Seeed Studio XIAO-ESP32-C3.step"
-			(hide yes)
-			(offset
-				(xyz -1.7018 -6.096 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/XIAO-ESP32S3 v2.step"
-			(hide yes)
-			(offset
-				(xyz -1.778 -6.1722 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "A:/kicad/Seeed Studio XIAO RP2040 v26.step"
 			(offset
 				(xyz 0 0 0)
@@ -5921,20 +5829,9 @@
 			(uuid "9a0d431f-7a52-44a6-8e56-560a54256529")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "A:/kicad/MX.STEP"
 			(offset
-				(xyz 5 2 4.5)
+				(xyz 5 2.5 4.5)
 			)
 			(scale
 				(xyz 1 1 1)
