@@ -237,7 +237,8 @@ void memory_beat()
             {
             case 0:
             {
-                digitalWrite(beatPattern[beatId], HIGH);
+                digitalWrite(beatPattern[beatId], HIGH); 
+                break;
             }
             case 1:
             {
@@ -251,10 +252,12 @@ void memory_beat()
                 {
                     beatId = 0;
                     beatBlinking = false;
-                }
+                } 
+                break;
             }
             case 2:
-            {
+            { 
+                break;
             }
             }
         }
