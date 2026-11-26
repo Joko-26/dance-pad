@@ -3,7 +3,7 @@ title: "Dancepad"
 github: "https://github.com/Joko-26/dance-pad"
 description: "My first PCB ever!!\nA tiny reaction/speed figet toy based on the RP2040, with keyboard switches!!!\nIn short you have to press the corresponding button when an led lights up "
 created_at: "2026-11-06"
-total_time: "16h"
+total_time: "18h"
 ---
 
 # November 6, 2026: Building the PCB (Design & Routing)
@@ -62,5 +62,21 @@ i have been busy making some firmware for the board, i added a memory game, wher
 Next ill make an enclosure using fusion 360 so i can 3d print it.
 
 ![](https://fabricate.hackclub-assets.com/6854b040699416c6a650940cd6ada89b28ce463caff92d82992cfa9f5d4f97c7/image-png/Screenshot%202026-11-25%20113547.png)
+
+**Total time spent: 2h**
+
+# November 26, 2026: Made a case!
+<!-- fabricate:entry 3964 -->
+
+## Hello everyone
+today i made a case:
+i started by exporting the 3d model of my pcb and imported it into fusion 360. Then i modeled the rough shape (the top and bottom piece). The next step was making holes for the componenets (like leds and the usb c port of the rp2040 seed). I also made some holes for soldering screw inserts so the whole thing can be assembled with screws. Then there was the problem of getting the pcb into the case and out because the screw holes blocked the way in and out. So i splitt the bottom half into two and added studs and holes for support but the screws will hold the whole thing together. Lastly i added some visual touchups and exported it & added the .3mf files to the project folder.
+
+## next imma get the project ready for review so stay tuned!!
+
+![](https://fabricate.hackclub-assets.com/9f983f4dc0cb3c793b1993988972f9edc2430d88657882af143d7d52f319319b/image-png/Screenshot%202026-11-26%20174058.png)
+![](https://fabricate.hackclub-assets.com/6f3546a44475591926b5c98350c036f8de9275f2e80e8bbb71cf56f8b8601478/image-png/Screenshot%202026-11-26%20174051.png)
+![](https://fabricate.hackclub-assets.com/d99bb5a596a1edf35e6352dfaf4f506f23ae2665a94900c9bc9968d58e99e26d/image-png/Screenshot%202026-11-26%20174042.png)
+![](https://fabricate.hackclub-assets.com/1d15aea04be3c09a358cbcbe524c9bdfed275ea343d971470ef8862115e32b62/image-png/Screenshot%202026-11-26%20181800.png)
 
 **Total time spent: 2h**
