@@ -83,23 +83,29 @@ void loop()
     {
     case mode1:
     {
-        dance_pad();
+        dance_pad(); 
+        break;
     }
     case mode2:
     {
-        memory_beat();
+        memory_beat(); 
+        break;
     }
     case mode3:
-    {
+    { 
+        break;
     }
     case mode4:
-    {
+    { 
+        break;
     }
     case mode5:
-    {
+    { 
+        break;
     }
     case mode6:
-    {
+    { 
+        break;
     }
     }
 
@@ -127,22 +133,28 @@ void loop1()
     switch (mode)
     {
     case mode1:
-    {
+    { 
+        break;
     }
     case mode2:
-    {
+    { 
+        break;
     }
     case mode3:
-    {
+    { 
+        break;
     }
     case mode4:
-    {
+    { 
+        break;
     }
     case mode5:
-    {
+    { 
+        break;
     }
     case mode6:
-    {
+    { 
+        break;
     }
 
     default:
