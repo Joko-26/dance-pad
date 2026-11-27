@@ -2157,6 +2157,17 @@
 				)
 			)
 		)
+		(property "	Comment" ""
+			(at 158.75 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "66e7f612-0acf-4bc3-9cea-16b1a7621cac")
 		)
@@ -2228,6 +2239,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 261.62 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "	Comment" ""
+			(at 261.62 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2309,6 +2331,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 99.06 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "	Comment" ""
 			(at 99.06 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -2636,6 +2669,17 @@
 				)
 			)
 		)
+		(property "	Comment" ""
+			(at 170.18 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "610543ff-215e-4367-80c7-dbfd350ab40d")
 		)
@@ -2708,6 +2752,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 190.5 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "	Comment" ""
 			(at 190.5 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -2876,6 +2931,17 @@
 				)
 			)
 		)
+		(property "	Comment" ""
+			(at 133.35 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9b730241-eb0a-461d-bab2-77b7447d95f6")
 		)
@@ -2967,6 +3033,17 @@
 				)
 			)
 		)
+		(property "	Comment" " LED Green"
+			(at 125.73 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eab850e0-adac-47e8-acbb-3a13eebde783")
 		)
@@ -3047,6 +3124,17 @@
 				)
 			)
 		)
+		(property "	Comment" ""
+			(at 191.77 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0b5bc826-e109-4c03-80b4-ef4958a1f1c5")
 		)
@@ -3118,6 +3206,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 213.36 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "	Comment" ""
+			(at 213.36 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3276,6 +3375,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 186.69 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "	Comment" ""
 			(at 186.69 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3445,6 +3555,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 102.87 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "	Comment" " LED Red"
 			(at 102.87 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -3693,6 +3814,17 @@
 				)
 			)
 		)
+		(property "	Comment" ""
+			(at 254 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1e2a9bc2-f72f-451f-a2ec-71fc1b90dd2b")
 		)
@@ -3880,6 +4012,17 @@
 				)
 			)
 		)
+		(property "	Comment" " LED Yellow"
+			(at 173.99 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c4a6c372-170b-4999-bb80-fdd051133ea6")
 		)
@@ -3960,6 +4103,17 @@
 				)
 			)
 		)
+		(property "	Comment" ""
+			(at 213.36 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f6427bbd-1ac6-47c6-abee-cb138d11abd0")
 		)
@@ -4031,6 +4185,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 213.36 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "	Comment" ""
+			(at 213.36 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4131,6 +4296,17 @@
 				)
 			)
 		)
+		(property "	Comment" " LED White"
+			(at 194.31 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "41492668-ad06-492e-8900-ae8b1b08d089")
 		)
@@ -4221,6 +4397,17 @@
 				)
 			)
 		)
+		(property "	Comment" " LED Blue"
+			(at 149.86 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fed5810c-967c-4950-b439-b3f217085356")
 		)
@@ -4292,6 +4479,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 213.36 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "	Comment" ""
+			(at 213.36 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4461,6 +4659,17 @@
 				)
 			)
 		)
+		(property "	Comment" ""
+			(at 146.05 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e1090fc9-484a-4fa6-8551-623c5b140bac")
 		)
@@ -4545,6 +4754,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 195.58 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "	Comment" ""
+			(at 195.58 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4712,6 +4932,17 @@
 				)
 			)
 		)
+		(property "	Comment" ""
+			(at 109.22 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2c14be79-3226-4e32-a269-21476ef00ba0")
 		)
@@ -4782,6 +5013,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 139.7 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "	Comment" ""
 			(at 139.7 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4908,6 +5150,17 @@
 				)
 			)
 		)
+		(property "	Comment" ""
+			(at 213.36 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7566f1b2-501f-4f2b-b202-bac2ca7ee8ff")
 		)
@@ -4990,6 +5243,17 @@
 				)
 			)
 		)
+		(property "	Comment" ""
+			(at 121.92 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a927ddb1-b9fe-4880-84ba-59ee24e97ee4")
 		)
@@ -5061,6 +5325,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 213.36 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "	Comment" ""
+			(at 213.36 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
