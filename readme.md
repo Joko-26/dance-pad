@@ -28,6 +28,7 @@ folder | contents
 `/code` | code files
 `/cad` | .3mf and source files for the 3d printable case
 `/dancePad` | repository files
+`/manufacturing` | containes .step files for manufacturing
 
 ## pins
 
